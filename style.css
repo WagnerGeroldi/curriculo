@@ -10,9 +10,9 @@ body {
 }
 
 .card {
-    border-radius: 6px;
+    border-radius: 25px 0 25px 0;
     box-shadow: 2px 2px 2px gray;
-    width: 80%;
+    width: 85%;
     margin: auto;
     background: #fff;
     margin-top: 15px;
@@ -27,7 +27,7 @@ body {
 
 .name {
     color: rgb(241, 171, 19);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 img {
