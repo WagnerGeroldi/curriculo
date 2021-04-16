@@ -62,3 +62,20 @@ em, small {
     color: rgb(241, 171, 19);
 }
 
+/* desktop */
+
+@media (min-width: 900px) {
+    main {
+        width: 880px ;
+        margin: auto;
+    }
+
+    .card:hover {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 60%);
+        transition: 0.6s;
+    }
+
+    img {
+        width: 25%;
+    }
+}
