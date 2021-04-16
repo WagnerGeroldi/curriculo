@@ -28,9 +28,11 @@ body {
 
 .name {
     color: rgb(241, 171, 19);
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.3rem;
+}
 
+hr {
+    margin-bottom: 15px ;
 }
 
 p {
@@ -38,10 +40,8 @@ p {
 }
 
 i {
-    margin-right: 5px;
-    width: 1.1rem;
+    margin-right: 20px; 
     color: rgb(241, 171, 19);
-
 }
 
 a {
@@ -49,3 +49,7 @@ a {
     color: black;
     cursor: pointer;
 }
+em {
+    color: rgb(241, 171, 19);
+}
+
