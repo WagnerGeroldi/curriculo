@@ -23,7 +23,6 @@ body {
     text-align: center;
     color: rgb(241, 171, 19);
     font-weight: 600;
-
 }
 
 .name {
@@ -31,6 +30,16 @@ body {
     font-size: 1.3rem;
 }
 
+img {
+    border-radius: 300px;
+    width: 40%;
+    border: 6px solid rgb(241, 171, 19);
+}
+
+
+.fa-mobile {
+    margin-right: 35px !important;
+}
 hr {
     margin-bottom: 15px ;
 }
