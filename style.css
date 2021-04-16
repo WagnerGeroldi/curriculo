@@ -58,7 +58,7 @@ a {
     color: black;
     cursor: pointer;
 }
-em {
+em, small {
     color: rgb(241, 171, 19);
 }
 
