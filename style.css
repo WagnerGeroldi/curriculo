@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(214, 214, 214);
+}
+
+.card {
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px gray;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    color: rgb(241, 171, 19);
+    font-weight: 600;
+
+}
+
+.name {
+    color: rgb(241, 171, 19);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+i {
+    margin-right: 5px;
+    width: 1.1rem;
+    color: rgb(241, 171, 19);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
