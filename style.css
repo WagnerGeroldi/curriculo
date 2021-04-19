@@ -61,7 +61,8 @@ a {
 
 .cv {
     color: rgb(241, 171, 19);
-    font-weight: 900;
+    font-weight: 600;
+    text-decoration: underline;
 
 }
 em, small {
