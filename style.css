@@ -55,8 +55,9 @@ i {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(241, 171, 19);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .cv {
@@ -68,6 +69,8 @@ a {
 em, small {
     color: rgb(241, 171, 19);
 }
+
+
 
 /* desktop */
 
