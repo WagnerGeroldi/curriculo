@@ -12,10 +12,9 @@ body {
 .card {
     border-radius: 25px 0 25px 0;
     box-shadow: 2px 2px 2px gray;
-    width: 85%;
     margin: auto;
     background: #fff;
-    margin-top: 15px;
+    margin: 15px;
     padding: 20px;
 }
 
@@ -76,10 +75,46 @@ em, small {
 
 @media (min-width: 900px) {
     
+    .header {
+        grid-area: header;
+    }
+    .personal-info {
+        grid-area: personal-info;
+    }
+    .education {
+        grid-area: education;
+    }
+
+    .objective {
+        grid-area: objective;
+    }
+
+    .professional {
+        grid-area: professional;
+    }
+
+    .competence {
+        grid-area: competence;
+    }
+
+
     
     main {
-        width: min(80%, 880px) ;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "personal-info objective"
+        "competence competence"
+        "education professional"
+        
+        ;
+        width: min(80%, 700px) ;
         margin: auto;
+    }
+
+    .header {
+        margin: 0;
+        position: relative;
     }
     
     
