@@ -11,10 +11,10 @@ body {
 
 .card {
     border-radius: 25px 0 25px 0;
-    box-shadow: 0 0 1em gold;
+    box-shadow: 0 0 0.5em rgb(71, 71, 71);
     margin: auto;
     background: #fff;
-    margin: 15px;
+    margin: 30px;
     padding: 20px;
 }
 
