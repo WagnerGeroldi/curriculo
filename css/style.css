@@ -11,7 +11,7 @@ body {
 
 .card {
     border-radius: 25px 0 25px 0;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 0 0 1em gold;
     margin: auto;
     background: #fff;
     margin: 15px;
@@ -105,21 +105,17 @@ em, small {
         "header header"
         "personal-info objective"
         "competence competence"
-        "education professional"
-        
-        ;
+        "education professional";
         width: min(80%, 700px) ;
         margin: auto;
     }
-
-    .header {
-        margin: 0;
-        position: relative;
+    
+    .card{
+        box-shadow: none;
     }
-    
-    
+
     .card:hover {
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 60%);
+        box-shadow: 0 0 1em gold;
         transition: 0.6s;
     }
 
