@@ -14,12 +14,14 @@ body {
     box-shadow: 0 0 0.5em rgb(71, 71, 71);
     margin: auto;
     background: #fff;
-    margin: 30px;
+    margin: 15px;
     padding: 20px;
 }
 
 .header {
     text-align: center;
+    font-size: 2rem;
+    font-style: italic;
     color: rgb(241, 171, 19);
     font-weight: 600;
 }
@@ -105,7 +107,8 @@ em, small {
         "header header"
         "personal-info objective"
         "competence competence"
-        "education professional";
+        "education education"
+        "professional professional";
         width: min(80%, 700px) ;
         margin: auto;
     }
