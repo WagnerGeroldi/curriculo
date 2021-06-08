@@ -111,7 +111,7 @@ em, small {
     }
     
     .card{
-        box-shadow: none;
+        box-shadow: 0 0 0.5em rgb(71, 71, 71);
     }
 
     .card:hover {
