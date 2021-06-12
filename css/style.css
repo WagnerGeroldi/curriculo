@@ -71,6 +71,13 @@ em, small {
     color: rgb(241, 171, 19);
 }
 
+footer {
+    background: rgb(241, 171, 19);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* desktop */
