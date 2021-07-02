@@ -1,17 +1,14 @@
 .descricao {
     font-size: 1.5rem;
-
 }
 .list-items {
     font-size: 1rem;
 }
-
 a {
     cursor: pointer;
     text-decoration: none!important;
     font-weight: 500;
 }
-
 .personal-data {
     display: grid;
     justify-content: flex-start;
