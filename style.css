@@ -1,0 +1,102 @@
+.descricao {
+    font-size: 1.5rem;
+
+}
+.list-items {
+    font-size: 1rem;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none!important;
+    font-weight: 500;
+}
+
+.personal-data {
+    display: grid;
+    justify-content: flex-start;
+    align-items: baseline;
+    grid-template-columns: 15% 1fr;
+    grid-template-areas: 
+    "icone texto"
+    "icone2 texto2"
+    "icone3 texto3"
+    "icone4 texto4"
+    "icone5 texto5"
+    "icone6 texto6"
+    "icone7 texto7";
+}
+
+.fa-home {
+    grid-area: icone;
+}
+.fa-phone {
+    grid-area: icone2;
+}
+.fa-envelope {
+    grid-area: icone3;
+}
+.fa-birthday-cake {
+    grid-area: icone4;
+}
+.fa-paperclip {
+    grid-area: icone5;
+}
+.fa-linkedin-square {
+    grid-area: icone6;
+}
+.fa-git {
+    grid-area: icone7;
+}
+
+.city {
+    grid-area: texto;
+}
+.phone {
+    grid-area: texto2;
+}
+.email {
+    grid-area: texto3;
+}
+.nascimento {
+    grid-area: texto4;
+}
+.curriculo {
+    grid-area: texto5;
+}
+.link {
+    grid-area: texto6;
+}
+.git {
+grid-area: texto7;
+}
+
+small,em {
+    color: firebrick;
+}
+.fa-file-code-o{
+    color: firebrick;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .data-title{
+        text-align: center;
+    }
+
+    .w-80 {
+        width: 80%!important;
+        text-align: justify;
+    }
+    .competence {
+        text-align: left;
+    }
+}
