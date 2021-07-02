@@ -51,3 +51,7 @@ function calcularIdade() {
 }
 const inserirIdade = document.querySelector('.idade')
 inserirIdade.innerHTML = calcularIdade()
+
+
+//
+

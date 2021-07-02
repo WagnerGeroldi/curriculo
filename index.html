@@ -16,8 +16,26 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>
+    .botao-subir {
+    position: fixed;
+    color: black;
+    bottom: 0.1em;
+    right: 0.1em;
+    text-decoration: none;
+    padding: 0.7em 0.2em;
+    /* display: none; */
+}
+
+.botao-subir:hover {
+    color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+    </style>
 </head>
 
 <body>
@@ -166,7 +184,7 @@
                 <hr>
             </div>
         </div>
-    </div> 
+    </div>
     <div class="row" id="experience" data-aos="fade-right">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
@@ -187,7 +205,8 @@
                         aria-hidden="true"></i>
                     <strong>AB Couros - <small>(3,6 anos)</small></strong> <br><br>
                     <i class="fa fa-star" aria-hidden="true"></i>Auxiliar Administrativo
-                </p><hr>
+                </p>
+                <hr>
             </div>
         </div>
 
@@ -283,6 +302,9 @@
         </div>
 
     </div>
+    <a href="index.html" class="voltar-ao-topo botao-subir">
+        <i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i>
+    </a>
     <footer class="bg-secondary text-white p-2">
         <p> Desenvolvido com muito <i class="fa fa-coffee" aria-hidden="true"></i> por Wagner Lucas Geroldi</p>
     </footer>
@@ -290,4 +312,23 @@
 <script type="text/javascript" src="scripts.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
+<script>
+    $(document).ready(function () {
+    // Exibe ou oculta o botão
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.voltar-ao-topo').fadeIn(200);
+        } else {
+            $('.voltar-ao-topo').fadeOut(200);
+        }
+    });
+
+    // Faz animação para subir
+    $('.voltar-ao-topo').click(function (event) {
+        event.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 300);
+    })
+});
+</script>
+
 </html>
