@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -60,7 +61,7 @@
             </h4>
         </div>
     </div>
-    <div class="row" id="personal-data">
+    <div class="row" id="personal-data" data-aos="fade-right">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-user fa-2x" aria-hidden="true"></i> Dados Pessoais
@@ -93,7 +94,7 @@
             <hr>
         </div>
     </div>
-    <div class="row" id="objective">
+    <div class="row" id="objective" data-aos="fade-left">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-eye fa-2x" aria-hidden="true"></i> Objetivos
@@ -111,7 +112,7 @@
         </div>
 
     </div>
-    <div class="row" id="competence">
+    <div class="row" id="competence" data-aos="fade-right">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-cubes fa-2x" aria-hidden="true"></i> Competências
@@ -141,7 +142,7 @@
             </div>
         </div>
     </div>
-    <div class="row" id="academy">
+    <div class="row" id="academy" data-aos="fade-left">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i> Formação Acadêmica/Cursos
@@ -165,8 +166,8 @@
                 <hr>
             </div>
         </div>
-    </div>
-    <div class="row" id="experience">
+    </div> 
+    <div class="row" id="experience" data-aos="fade-right">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i> Experiência Profissional
@@ -191,7 +192,7 @@
         </div>
 
     </div>
-    <div class="row" id="projects">
+    <div class="row" id="projects" data-aos="fade-left">
         <div class="data-title">
             <div class="col-12 col-sm-6 mx-auto m-2 descricao">
                 <i class="fa fa-code fa-2x" aria-hidden="true"></i> Portifólio
@@ -287,5 +288,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="scripts.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </html>
