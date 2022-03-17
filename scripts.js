@@ -37,7 +37,7 @@ function calcularIdade() {
     const dataNascimento = new Date('1989-12-07'); // aaaa-mm-dd
     const diferencaDatas = Math.abs(dataAtual.getTime() - dataNascimento.getTime()); // Subtrai uma data pela outra
 
-    if (mes < 11) {
+    if (mes > 11) {
         const calculo = (diferencaDatas / (1000 * 86400 * 365) - 1);
         const resultado = ` (${calculo.toFixed(0)} anos)`
         return resultado
@@ -51,7 +51,4 @@ function calcularIdade() {
 }
 const inserirIdade = document.querySelector('.idade')
 inserirIdade.innerHTML = calcularIdade()
-
-
-//
 
