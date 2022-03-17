@@ -52,3 +52,6 @@ function calcularIdade() {
 const inserirIdade = document.querySelector('.idade')
 inserirIdade.innerHTML = calcularIdade()
 
+function alerta() {
+    alert("Por Favor, solicite currículo em meu WhatsApp")
+}
